@@ -303,7 +303,9 @@ To deploy a setup,
 the [umbrella chart](https://helm.sh/docs/howto/charts_tips_and_tricks/#complex-charts-with-many-dependencies) of the
 access-node can be used as followed:
 
-- create a configuration values file according to the own environment, as described [here](#how-to-configure).
+- create a configuration values file according to the own environment, as described [here](#how-to-configure). 
+TODO: Must be a default configuration file here. Downloaded from https://github.com/DOME-Marketplace/access-node/blob/main/charts/access-node/values.yaml
+
 - add helm chart repository to helm installation
   ```
     helm repo add dome-access-node https://dome-marketplace.github.io/access-node
